@@ -1,0 +1,1398 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none; 
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+}
+
+/****************************************************************
+
+HEADER
+
+****************************************************************/
+
+/** header {
+  width: 100%;
+  border-bottom: 1px solid rgb(220,220,220);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background: #fff;
+}
+**/
+
+
+
+
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP & BOTTOM
+
+****************************************************************/
+
+
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+
+/** .top-bg {
+  width: 100%;
+  background-image: url('../img/bg-cover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  margin-top: 50px;
+  z-index: 0;
+}
+
+.bg-wrapper {
+  text-align: center;
+  padding-top: 165px;
+} **/
+
+
+.bg {
+  background: url('../img/cover@2x.png') no-repeat center;
+  background-size: cover;
+  max-height: 651px;
+  z-index: 0;
+}
+
+.bg-container {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  min-height: 700px;
+  padding-top: 130px;
+}
+
+.logo {
+  background-size: 288px 76px;
+  width: 288px;
+  height: 76px;
+  margin: 0 auto 30px;
+}
+
+h1 {
+  max-width: 960px;
+  margin: 0 auto 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 3.8em;
+  font-weight: 200;
+  letter-spacing: 15px;
+  text-transform: uppercase; 
+}
+
+.runmill-desc {
+  max-width: 630px;
+  margin: 0 auto 70px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 200;
+  letter-spacing: 2px;
+  line-height: 32px;
+}
+
+.contact {
+  text-align: center;
+  padding: 1.2em 1.3em;
+  background-color: transparent;
+  border-color: #fff;
+  text-shadow: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase; 
+}
+
+.contact:hover {
+  background-color: #fff;
+  color: #605ca8;
+}
+
+h3 {
+  margin: 15px auto 60px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+
+
+
+
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.stopwatch {
+  height: 610px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.stopwatch-wrap {
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.stopwatch-title {
+  max-width: 400px;
+  margin: 85px auto 30px;
+  text-align: center;
+  color: #605ca8;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.stopwatch-desc {
+  max-width: 530px;
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #888888;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.fit {
+  width: 100%;
+  text-align: center;
+}
+
+.fit-icons {
+  background-size: 320px 249px;
+  width: 320px;
+  height: 249px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.flexible {
+  height: 550px;
+  background: #605ca8;
+}
+
+.flexible-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.flexible-title {
+  max-width: 400px;
+  margin-top: 200px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.flexible-desc {
+  max-width: 500px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.flexible-overview {
+  padding-left: 100px;
+  text-align: left;
+  float: left;
+}
+
+.first-watch {
+  margin-top: -170px;
+  float: right;
+}
+
+.f-watch {
+  background-size: 553px 870px;
+  width: 553px;
+  max-height: 870px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.heart {
+  height: 690px;
+  background: #fff;
+  clear: both;
+}
+
+.heart-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heart-overview {
+  max-width: 500px;
+  float: right;
+}
+
+.heart-title {
+  max-width: 500px;
+  margin-top: 80px;
+  color: #605ca8;
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.heart-desc {
+  max-width: 500px;
+  color: #888888;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.second-watch {
+  margin-top: -20px;
+  padding-left: 100px;
+  float: left;
+}
+
+.s-watch {
+  background-size: 471px 574px;
+  width: 471px;
+  max-height: 574px;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+.safe {
+  height: 600px;
+  background: #ff4f48;
+}
+
+.safe-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 106px;
+}
+
+.safe h3 {
+  margin: 30px auto 0;
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.safe p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-smooth:always;
+  -webkit-font-smoothing: antialiased;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 50px;
+  padding-right: 10px;
+}
+
+.play-down-btn {
+  padding-top: 50px;
+  padding-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+/****************************************************************
+
+FOOTER
+
+****************************************************************/
+
+footer {
+  height: 35px;
+  text-align: center;
+  margin: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+footer a {
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+footer p:hover {
+  color: #ff4f48;
+  text-decoration: none;
+}
+
+
+
+
+/**************************************************************** 
+*****************************************************************
+*****************************************************************
+
+MEDIA QUERIES
+
+*****************************************************************
+*****************************************************************
+****************************************************************/
+
+
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.bg-wrapper {
+  padding-top: 22%;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 1.6em;
+  line-height: 45px;
+}
+
+h3 {
+  max-width: 450px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP
+
+****************************************************************/
+
+.app-store-btn {
+  padding-top: 0;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-btn {
+  padding-top: 10px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 20px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-down-btn {
+  padding-top: 10px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-one-wrap {
+  width: 450px;
+  margin: 10% auto -10px;
+  float: none;
+}
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 750px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-two-wrap {
+  width: 470px;
+  text-align: center;
+  margin: 0 auto 0;
+  padding-top: 50px;
+  float: none;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 850px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-three-wrap {
+  width: 470px;
+  text-align: center;
+  margin: 0 auto 0;
+  padding-top: 50px;
+  float: none;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+
+.safe-wrap {
+  padding-top: 130px;
+}
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media screen and (max-width: 480px) and (min-width: 321px) {
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 620px;
+}
+
+.bg-wrapper {
+  padding-top: 21%;
+  max-width: 480px
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP
+
+****************************************************************/
+
+.app-store-btn {
+  padding-top: 0;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-btn {
+  padding-top: 10px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 20px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-down-btn {
+  padding-top: 10px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 31%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+
+.safe-wrap {
+  padding-top: 27%;
+}
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+
+        /***********************************
+
+        iPhone 5
+
+        ************************************/
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 620px;
+}
+
+.bg-wrapper {
+  padding-top: 12%;
+  max-width: 480px
+}
+
+.pure-button-one {
+  margin-right: 5px;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP
+
+****************************************************************/
+
+.app-store-btn {
+  padding-top: 0;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-btn {
+  padding-top: 5px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 50px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-down-btn {
+  padding-top: 5px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 15%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+
+.safe-wrap {
+  padding-top: 74px;
+}
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  
+
+        /***********************************
+
+        iPhone 6
+
+        ************************************/
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 620px;
+}
+
+.bg-wrapper {
+  padding-top: 15%;
+  max-width: 480px
+}
+
+.pure-button-one {
+  margin-right: 5px;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP
+
+****************************************************************/
+
+.app-store-btn {
+  padding-top: -10px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-btn {
+  padding-top: 5px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 50px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-down-btn {
+  padding-top: 5px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+
+.safe-wrap {
+  padding-top: 70px;
+}
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 3) {
+ 
+        /***********************************
+
+        iPhone 6 Plus Portrait
+
+        ************************************/
+
+
+/****************************************************************
+
+BG AREA
+
+****************************************************************/
+
+.top-bg {
+  height: 570px;
+}
+
+.bg-wrapper {
+  padding-top: 25%;
+  max-width: 480px
+}
+
+.pure-button-one {
+  margin-right: 5px;
+}
+
+h2 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+h3 {
+  max-width: 400px;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+TOP
+
+****************************************************************/
+
+.app-store-btn {
+  padding-top: 0;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-btn {
+  padding-top: 0px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+APP STORE & GOOGLE PLAY BTNS 
+BOTTOM
+
+****************************************************************/
+
+.app-store-down-btn {
+  padding-top: 50px;
+  padding-right: 0;
+  width: 196px;
+  height: 66px;
+}
+
+.play-down-btn {
+  padding-top: 50px;
+  padding-left: 0;
+  width: 196px;
+  height: 66px;
+
+}
+
+/****************************************************************
+
+STEP ONE
+
+****************************************************************/
+
+.step-one {
+  height: 700px;
+  overflow: hidden;
+}
+
+.phone-one-wrap {
+  padding-top: 70px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-one-wrap {
+  margin: 17% auto -30px;
+  text-align: center;
+  float: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+
+
+/****************************************************************
+
+STEP TWO
+
+****************************************************************/
+
+.step-two {
+  height: 720px;
+  overflow: hidden;
+}
+
+.phone-two-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-two-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+STEP THREE
+
+****************************************************************/
+
+.step-three {
+  height: 710px;
+  overflow: hidden;
+}
+
+.phone-three-wrap {
+  padding-top: 64px;
+  padding-left: 20%;
+  float: none;
+}
+
+.p-three-wrap {
+  margin: 16% auto -30px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: none;
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+/****************************************************************
+
+SAFE & AUTOMATIC
+
+****************************************************************/
+
+
+.safe-wrap {
+  padding-top: 105px;
+}
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 3) {
+
+        /***********************************
+
+        iPhone 6 Plus Landscape
+
+        ************************************/
+
+
+
+
+}
+
+/***************** 
+
+FIM 
+
+*****************/
+
+
+
