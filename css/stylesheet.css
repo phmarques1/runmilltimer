@@ -97,9 +97,8 @@ h1 {
   text-align: center;
   color: #fff;
   font-size: 3.8em;
-  font-weight: 200;
-  letter-spacing: 15px;
-  text-transform: uppercase; 
+  font-weight: 800;
+  letter-spacing: 15px; 
 }
 
 .runmill-desc {
@@ -109,7 +108,7 @@ h1 {
   color: #fff;
   font-size: 1.2em;
   font-weight: 200;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   line-height: 32px;
 }
 
@@ -312,61 +311,117 @@ STEP THREE
 
 /****************************************************************
 
-SAFE & AUTOMATIC
+STEP FOUR
 
 ****************************************************************/
 
-.safe {
-  height: 600px;
-  background: #ff4f48;
+.taptic {
+  height: 935px;
+  background: #fff;
+  border-top: 1px solid rgb(220,220,220);
+  border-bottom: 1px solid rgb(220,220,220);
+  overflow: hidden;
 }
 
-.safe-wrap {
-  text-align: center;
+.taptic-wrap {
+  max-width: 910px;
   margin: 0 auto;
-  padding-top: 106px;
 }
 
-.safe h3 {
-  margin: 30px auto 0;
+.taptic-title {
+  max-width: 400px;
+  margin: 100px auto 30px;
   text-align: center;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.8em;
-  font-weight: 600;
+  color: #605ca8;
+  font-size: 1.5em;
+  font-weight: 200;
   letter-spacing: 2px;
 }
 
-.safe p {
+.taptic-desc {
+  max-width: 530px;
+  margin: 0 auto 40px;
   text-align: center;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3em;
-  font-weight: 300;
-  font-smooth:always;
-  -webkit-font-smoothing: antialiased;
+  color: #888888;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.taptic-icon {
+  width: 100%;
+  text-align: center;
+}
+
+.t-icons {
+  background-size: 623px 540px;
+  width: 623px;
+  height: 540px;
+  margin: 0 auto;
 }
 
 /****************************************************************
 
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
+enough scrolling
 
 ****************************************************************/
 
-.app-store-down-btn {
-  padding-top: 50px;
-  padding-right: 10px;
+.end {
+  background: url('../img/lower-bg@2x.png') no-repeat center;
+  background-size: cover;
+  max-height: 620px;
+  z-index: 0;
 }
 
-.play-down-btn {
-  padding-top: 50px;
-  padding-left: 10px;
-
+.end-wrap {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 130px;
+  min-height: 620px;
 }
 
+.end-title {
+  max-width: 960px;
+  margin: 100px auto 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
 
+.end-desc {
+  max-width: 530px;
+  margin: 0 auto 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.05em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
 
+.contact-down {
+  text-align: center;
+  padding: 1.2em 1.3em;
+  background-color: transparent;
+  text-shadow: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase; 
+}
+
+.contact-down:hover {
+  background-color: #fff;
+  color: #605ca8;
+}
 
 
 
@@ -390,15 +445,11 @@ footer {
   font-weight: 300;
 }
 
-footer a {
+footer p {
   text-decoration: none;
   color: #a6a6a6;
 }
 
-footer p:hover {
-  color: #ff4f48;
-  text-decoration: none;
-}
 
 
 
