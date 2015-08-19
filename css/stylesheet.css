@@ -88,7 +88,7 @@ BG AREA
   background-size: 288px 76px;
   width: 288px;
   height: 76px;
-  margin: 0 auto 30px;
+  margin: 0 auto 10px;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h1 {
 
 .runmill-desc {
   max-width: 630px;
-  margin: 0 auto 70px;
+  margin: 0 auto 90px;
   text-align: center;
   color: #fff;
   font-size: 1.2em;
