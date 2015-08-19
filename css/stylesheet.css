@@ -68,6 +68,50 @@ BG AREA
   padding-top: 165px;
 } **/
 
+header {
+  width: 100%;
+  border-bottom: 1px solid rgb(220,220,220);
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.header-wrapper {
+  max-width: 1140px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.logo-header {
+  background-size: 206px 53px;
+  width: 206px;
+  height: 53px;
+  margin: 6px auto 10px;
+}
+
+.pure-button-one {
+  margin: 12px auto 10px;
+  text-align: center;
+  padding: 0.8em 1.3em;
+  background-color: transparent;
+  text-shadow: none;
+  color: #605ca8;
+  border: 2px solid #605ca8;
+  font-size: 0.8em;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  float: right; 
+
+}
+
+.pure-button-one:hover {
+  background-color: #605ca8;
+  color: #fff;
+}
+
 
 .bg {
   background: url('../img/cover@2x.png') no-repeat center;
@@ -132,23 +176,6 @@ h1 {
   color: #605ca8;
 }
 
-h3 {
-  margin: 15px auto 60px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  font-smooth:always;
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: 2px;
-  line-height: 40px;
-}
-
-
-
-
-
 
 /****************************************************************
 
@@ -173,7 +200,7 @@ STEP ONE
   text-align: center;
   color: #605ca8;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -227,7 +254,7 @@ STEP TWO
   margin-top: 200px;
   color: #fff;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -284,7 +311,7 @@ STEP THREE
   margin-top: 80px;
   color: #605ca8;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
@@ -334,7 +361,7 @@ STEP FOUR
   text-align: center;
   color: #605ca8;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 2px;
 }
 
