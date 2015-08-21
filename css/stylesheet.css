@@ -994,6 +994,7 @@ h1 {
 
 .flexible {
   height: 955px;
+  overflow: hidden;
 }
 
 .flexible-title {
@@ -1028,6 +1029,7 @@ h1 {
 
 .heart {
   height: 1040px;
+  overflow: hidden;
 }
 
 .heart-wrap {
