@@ -143,8 +143,8 @@ STEP ONE
 .stopwatch-wrap {
   max-width: 960px;
   margin: 0 auto;
-  padding-right: 5%;
-  padding-left: 5%;
+/**  padding-right: 5%;
+  padding-left: 5%; **/
 }
 
 .stopwatch-title {
@@ -205,8 +205,8 @@ STEP TWO
 .flexible-wrap {
   max-width: 1200px;
   margin: 0 auto;
-  padding-right: 5%;
-  padding-left: 5%;
+/**  padding-right: 5%;
+  padding-left: 5%; **/
 }
 
 .flexible-title {
@@ -252,8 +252,8 @@ STEP THREE
 .heart-wrap {
   max-width: 1200px;
   margin: 0 auto;
-  padding-right: 5%;
-  padding-left: 5%;
+/**  padding-right: 5%;
+  padding-left: 5%; **/
 }
 
 .heart-overview {
@@ -452,6 +452,11 @@ MEDIA QUERIES
 
 @media screen and (max-width: 1153px) and (min-width: 769px) {
 
+.stopwatch-wrap, .flexible-wrap, .heart-wrap {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .flexible {
   height: 930px;
 }
@@ -543,6 +548,11 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
+
+.stopwatch-wrap, .flexible-wrap, .heart-wrap {
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
 /** bg **/
 
@@ -709,6 +719,11 @@ FIM
 
 
 @media screen and (max-width: 480px) and (min-width: 321px) {
+
+.stopwatch-wrap, .flexible-wrap, .heart-wrap {
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
 /** header **/
 
@@ -901,6 +916,12 @@ FIM
         iPhone 5
 
         ************************************/
+
+.stopwatch-wrap, .flexible-wrap, .heart-wrap {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 /** header **/
 
 .header-wrapper {
@@ -1113,7 +1134,10 @@ FIM
 
         ************************************/
 
-
+.stopwatch-wrap, .flexible-wrap, .heart-wrap {
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
 }
 
