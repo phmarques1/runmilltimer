@@ -17,57 +17,6 @@ img {
   max-width: 100%;
 }
 
-/****************************************************************
-
-HEADER
-
-****************************************************************/
-
-/** header {
-  width: 100%;
-  border-bottom: 1px solid rgb(220,220,220);
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  background: #fff;
-}
-**/
-
-
-
-
-
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-TOP & BOTTOM
-
-****************************************************************/
-
-
-
-/****************************************************************
-
-BG AREA
-
-****************************************************************/
-
-
-/** .top-bg {
-  width: 100%;
-  background-image: url('../img/bg-cover.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 650px;
-  margin-top: 50px;
-  z-index: 0;
-}
-
-.bg-wrapper {
-  text-align: center;
-  padding-top: 165px;
-} **/
-
 header {
   width: 100%;
   border-bottom: 1px solid rgb(220,220,220);
@@ -87,11 +36,11 @@ header {
   background-size: 206px 53px;
   width: 206px;
   height: 53px;
-  margin: 6px auto 10px;
+  margin: 5px 0px 10px 6px;
 }
 
-.pure-button-one {
-  margin: 12px auto 10px;
+.down {
+  margin: 12px 10px 10px 0px;
   text-align: center;
   padding: 0.8em 1.3em;
   background-color: transparent;
@@ -103,11 +52,11 @@ header {
   font-weight: 800;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  float: right; 
+  float: right;
 
 }
 
-.pure-button-one:hover {
+.down:hover {
   background-color: #605ca8;
   color: #fff;
 }
@@ -126,6 +75,8 @@ header {
   text-align: center;
   min-height: 700px;
   padding-top: 130px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .logo {
@@ -190,15 +141,20 @@ STEP ONE
 }
 
 .stopwatch-wrap {
-  max-width: 910px;
+  max-width: 960px;
   margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .stopwatch-title {
-  max-width: 400px;
+  max-width: 960px;
   margin: 85px auto 30px;
   text-align: center;
   color: #605ca8;
+}
+
+.stopwatch-title, .flexible-title {
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 2px;
@@ -209,6 +165,9 @@ STEP ONE
   margin: 0 auto 40px;
   text-align: center;
   color: #888888;
+}
+
+.stopwatch-desc, .flexible-desc {
   font-size: 1.1em;
   font-weight: 200;
   letter-spacing: 1px;
@@ -246,25 +205,19 @@ STEP TWO
 .flexible-wrap {
   max-width: 1200px;
   margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
 }
-
 
 .flexible-title {
   max-width: 400px;
   margin-top: 200px;
   color: #fff;
-  font-size: 1.5em;
-  font-weight: 400;
-  letter-spacing: 2px;
 }
 
 .flexible-desc {
   max-width: 500px;
   color: #fff;
-  font-size: 1.1em;
-  font-weight: 200;
-  letter-spacing: 1px;
-  line-height: 30px;
 }
 
 .flexible-overview {
@@ -299,6 +252,8 @@ STEP THREE
 .heart-wrap {
   max-width: 1200px;
   margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .heart-overview {
@@ -353,6 +308,8 @@ STEP FOUR
 .taptic-wrap {
   max-width: 910px;
   margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .taptic-title {
@@ -384,7 +341,7 @@ STEP FOUR
 .t-icons {
   background-size: 623px 540px;
   width: 623px;
-  height: 540px;
+  max-height: 540px;
   margin: 0 auto;
 }
 
@@ -407,6 +364,8 @@ enough scrolling
   overflow: hidden;
   text-align: center;
   padding-top: 130px;
+  padding-right: 5%;
+  padding-left: 5%;
   min-height: 620px;
 }
 
@@ -491,162 +450,251 @@ MEDIA QUERIES
 *****************************************************************
 ****************************************************************/
 
+@media screen and (max-width: 1153px) and (min-width: 769px) {
 
+.flexible {
+  height: 930px;
+}
+
+.flexible-title {
+  margin: 70px auto 25px;
+}
+
+.flexible-desc {
+  margin: 0 auto 50px;
+}
+
+.flexible-overview {
+  padding-top: 10px;
+  padding-left: 0;
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+.first-watch {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+
+.f-watch {
+  background-size: 359px 566px;
+  width: 359px;
+  max-height: 566px;
+}
+
+/** heart **/
+
+.heart {
+  height: 890px;
+}
+
+.heart-wrap {
+  max-width: 1200px;
+}
+
+.heart-overview {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  float: none;
+}
+
+.heart-title {
+  max-width: 800px;
+  margin: 80px auto 25px;
+}
+
+.heart-desc {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.second-watch {
+  margin: 80px auto 10px;
+  text-align: center;
+  padding-left: 0;
+  float: none;
+}
+
+.s-watch {
+  background-size: 323px 394px;
+  width: 323px;
+  max-height: 394px;
+}
+
+/** taptic **/
+
+.taptic {
+  height: 765px;
+}
+
+.taptic-title {
+  margin: 80px auto 30px;
+}
+
+.t-icons {
+  background-size: 467px 405px;
+  width: 467px;
+  max-height: 405px;
+}
+
+}
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
-/****************************************************************
+/** bg **/
 
-BG AREA
-
-****************************************************************/
-
-.bg-wrapper {
-  padding-top: 22%;
+.bg {
+  max-height: 565px;
 }
 
-h2 {
+.bg-container {
+  padding-top: 80px;
+}
+
+h1 {
+  max-width: 960px;
+  margin: 20px auto 10px;
   text-align: center;
-  padding-left: 8%;
-  padding-right: 8%;
-  font-size: 1.6em;
-  line-height: 45px;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: 800;
+  letter-spacing: 10px; 
 }
 
-h3 {
-  max-width: 450px;
+.runmill-desc {
+  max-width: 440px;
+  margin: 15px auto 90px;
+  text-align: center;
+  color: #fff;
   font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 30px;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  line-height: 27px;
 }
 
-/****************************************************************
+/** stopwatch **/
 
-APP STORE & GOOGLE PLAY BTNS 
-TOP
-
-****************************************************************/
-
-.app-store-btn {
-  padding-top: 0;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.stopwatch {
+  height: 570px;
 }
 
-.play-btn {
+.stopwatch-title {
+  margin: 75px auto 20px;
+}
+
+.stopwatch-title, .flexible-title {
+  font-size: 1.5em;
+}
+
+.stopwatch-desc, .flexible-desc {
+  font-size: 1.05em;
+  line-height: 28px;
+}
+
+/** flex **/
+
+.flexible {
+  height: 930px;
+}
+
+.flexible-title {
+  margin: 70px auto 25px;
+}
+
+.flexible-desc {
+  margin: 0 auto 50px;
+}
+
+.flexible-overview {
   padding-top: 10px;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
+  text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
-
-****************************************************************/
-
-.app-store-down-btn {
-  padding-top: 20px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.first-watch {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
 }
 
-.play-down-btn {
-  padding-top: 10px;
+.f-watch {
+  background-size: 359px 566px;
+  width: 359px;
+  max-height: 566px;
+}
+
+/** heart **/
+
+.heart {
+  height: 960px;
+}
+
+.heart-wrap {
+  max-width: 1200px;
+}
+
+.heart-overview {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  float: none;
+}
+
+.heart-title {
+  max-width: 800px;
+  margin: 80px auto 25px;
+  font-size: 1.5em;
+}
+
+.heart-desc {
+  margin: 0 auto;
+  font-size: 1.05em;
+}
+
+.second-watch {
+  margin: 80px auto 10px;
+  text-align: center;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
-}
-
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 31%;
   float: none;
 }
 
-.p-one-wrap {
-  width: 450px;
-  margin: 10% auto -10px;
-  float: none;
+.s-watch {
+  background-size: 323px 394px;
+  width: 323px;
+  max-height: 394px;
+}
+
+/** taptic **/
+
+.taptic {
+  height: 765px;
+}
+
+.taptic-title {
+  font-size: 1.5em;
+  margin: 80px auto 30px;
+}
+
+.taptic-desc {
+  font-size: 1.05em;
+}
+
+.t-icons {
+  background-size: 467px 405px;
+  width: 467px;
+  max-height: 405px;
 }
 
 
-/****************************************************************
+/** end **/
 
-STEP TWO
-
-****************************************************************/
-
-.step-two {
-  height: 750px;
-  overflow: hidden;
-}
-
-.phone-two-wrap {
-  padding-top: 64px;
-  padding-left: 31%;
-  float: none;
-}
-
-.p-two-wrap {
-  width: 470px;
-  text-align: center;
-  margin: 0 auto 0;
-  padding-top: 50px;
-  float: none;
-}
-
-/****************************************************************
-
-STEP THREE
-
-****************************************************************/
-
-.step-three {
-  height: 850px;
-  overflow: hidden;
-}
-
-.phone-three-wrap {
-  padding-top: 64px;
-  padding-left: 31%;
-  float: none;
-}
-
-.p-three-wrap {
-  width: 470px;
-  text-align: center;
-  margin: 0 auto 0;
-  padding-top: 50px;
-  float: none;
-}
-
-/****************************************************************
-
-SAFE & AUTOMATIC
-
-****************************************************************/
-
-
-.safe-wrap {
-  padding-top: 130px;
+.end-title {
+  font-size: 1.7em;
 }
 
 }
@@ -662,201 +710,175 @@ FIM
 
 @media screen and (max-width: 480px) and (min-width: 321px) {
 
-/****************************************************************
+/** header **/
 
-BG AREA
-
-****************************************************************/
-
-.top-bg {
-  height: 620px;
+.header-wrapper {
+text-align: center;
 }
 
-.bg-wrapper {
-  padding-top: 21%;
-  max-width: 480px
+.logo-header {
+  display: none;
 }
 
-h2 {
+.down {
+  margin-top: 10px;
+  display: inline-block;
+  float: none;
+
+}
+
+
+/** bg **/
+
+.bg {
+  max-height: 560px;
+}
+
+.bg-container {
+  padding-top: 80px;
+}
+
+h1 {
+  max-width: 960px;
+  margin: 20px auto 10px;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
+  color: #fff;
   font-size: 1.5em;
-  line-height: 40px;
+  font-weight: 800;
+  letter-spacing: 10px; 
 }
 
-h3 {
-  max-width: 400px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
+.runmill-desc {
+  max-width: 440px;
+  margin: 15px auto 90px;
+  text-align: center;
+  color: #fff;
+  font-size: 0.95em;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  line-height: 27px;
 }
 
-/****************************************************************
+/** stopwatch **/
 
-APP STORE & GOOGLE PLAY BTNS 
-TOP
-
-****************************************************************/
-
-.app-store-btn {
-  padding-top: 0;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.stopwatch {
+  height: 570px;
 }
 
-.play-btn {
+.stopwatch-title {
+  margin: 75px auto 20px;
+}
+
+.stopwatch-title, .flexible-title {
+  font-size: 1.5em;
+}
+
+.stopwatch-desc, .flexible-desc {
+  font-size: 1.05em;
+  line-height: 28px;
+}
+
+/** flex **/
+
+.flexible {
+  height: 930px;
+}
+
+.flexible-title {
+  margin: 70px auto 25px;
+}
+
+.flexible-desc {
+  margin: 0 auto 50px;
+}
+
+.flexible-overview {
   padding-top: 10px;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
+  text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
-
-****************************************************************/
-
-.app-store-down-btn {
-  padding-top: 20px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.first-watch {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
 }
 
-.play-down-btn {
-  padding-top: 10px;
+.f-watch {
+  background-size: 359px 566px;
+  width: 359px;
+  max-height: 566px;
+}
+
+/** heart **/
+
+.heart {
+  height: 960px;
+}
+
+.heart-wrap {
+  max-width: 1200px;
+}
+
+.heart-overview {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  float: none;
+}
+
+.heart-title {
+  max-width: 800px;
+  margin: 80px auto 25px;
+  font-size: 1.5em;
+}
+
+.heart-desc {
+  margin: 0 auto;
+  font-size: 1.05em;
+}
+
+.second-watch {
+  margin: 80px auto 10px;
+  text-align: center;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
-}
-
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 31%;
   float: none;
 }
 
-.p-one-wrap {
-  margin: 17% auto -30px;
-  text-align: center;
-  float: none;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.4em;
-  line-height: 40px;
+.s-watch {
+  background-size: 323px 394px;
+  width: 323px;
+  max-height: 394px;
 }
 
-/****************************************************************
+/** taptic **/
 
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
+.taptic {
+  height: 765px;
 }
 
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 20%;
-  float: none;
+.taptic-title {
+  font-size: 1.5em;
+  margin: 80px auto 30px;
 }
 
-.p-one-wrap {
-  margin: 17% auto -30px;
-  text-align: center;
-  float: none;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.4em;
-  line-height: 40px;
+.taptic-desc {
+  font-size: 1.05em;
+}
+
+.t-icons {
+  background-size: 467px 405px;
+  width: 467px;
+  max-height: 405px;
 }
 
 
+/** end **/
 
-/****************************************************************
-
-STEP TWO
-
-****************************************************************/
-
-.step-two {
-  height: 720px;
-  overflow: hidden;
-}
-
-.phone-two-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-two-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-STEP THREE
-
-****************************************************************/
-
-.step-three {
-  height: 710px;
-  overflow: hidden;
-}
-
-.phone-three-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-three-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-SAFE & AUTOMATIC
-
-****************************************************************/
-
-
-.safe-wrap {
-  padding-top: 27%;
+.end-title {
+  font-size: 1.7em;
 }
 
 
@@ -880,179 +902,6 @@ FIM
 
         ************************************/
 
-/****************************************************************
-
-BG AREA
-
-****************************************************************/
-
-.top-bg {
-  height: 620px;
-}
-
-.bg-wrapper {
-  padding-top: 12%;
-  max-width: 480px
-}
-
-.pure-button-one {
-  margin-right: 5px;
-}
-
-h2 {
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.5em;
-  line-height: 40px;
-}
-
-h3 {
-  max-width: 400px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-TOP
-
-****************************************************************/
-
-.app-store-btn {
-  padding-top: 0;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
-}
-
-.play-btn {
-  padding-top: 5px;
-  padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
-
-****************************************************************/
-
-.app-store-down-btn {
-  padding-top: 50px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
-}
-
-.play-down-btn {
-  padding-top: 5px;
-  padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
-}
-
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 15%;
-  float: none;
-}
-
-.p-one-wrap {
-  margin: 17% auto -30px;
-  text-align: center;
-  float: none;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-
-
-/****************************************************************
-
-STEP TWO
-
-****************************************************************/
-
-.step-two {
-  height: 720px;
-  overflow: hidden;
-}
-
-.phone-two-wrap {
-  padding-top: 64px;
-  padding-left: 15%;
-  float: none;
-}
-
-.p-two-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-STEP THREE
-
-****************************************************************/
-
-.step-three {
-  height: 710px;
-  overflow: hidden;
-}
-
-.phone-three-wrap {
-  padding-top: 64px;
-  padding-left: 15%;
-  float: none;
-}
-
-.p-three-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-SAFE & AUTOMATIC
-
-****************************************************************/
-
-
-.safe-wrap {
-  padding-top: 74px;
-}
 
 }
 
@@ -1074,179 +923,7 @@ FIM
 
         ************************************/
 
-/****************************************************************
 
-BG AREA
-
-****************************************************************/
-
-.top-bg {
-  height: 620px;
-}
-
-.bg-wrapper {
-  padding-top: 15%;
-  max-width: 480px
-}
-
-.pure-button-one {
-  margin-right: 5px;
-}
-
-h2 {
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.5em;
-  line-height: 40px;
-}
-
-h3 {
-  max-width: 400px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-TOP
-
-****************************************************************/
-
-.app-store-btn {
-  padding-top: -10px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
-}
-
-.play-btn {
-  padding-top: 5px;
-  padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
-
-****************************************************************/
-
-.app-store-down-btn {
-  padding-top: 50px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
-}
-
-.play-down-btn {
-  padding-top: 5px;
-  padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
-}
-
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-one-wrap {
-  margin: 17% auto -30px;
-  text-align: center;
-  float: none;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-
-
-/****************************************************************
-
-STEP TWO
-
-****************************************************************/
-
-.step-two {
-  height: 720px;
-  overflow: hidden;
-}
-
-.phone-two-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-two-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-STEP THREE
-
-****************************************************************/
-
-.step-three {
-  height: 710px;
-  overflow: hidden;
-}
-
-.phone-three-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-three-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-SAFE & AUTOMATIC
-
-****************************************************************/
-
-
-.safe-wrap {
-  padding-top: 70px;
-}
 
 }
 
@@ -1268,178 +945,152 @@ FIM
         ************************************/
 
 
-/****************************************************************
+/** bg **/
 
-BG AREA
+.bg {
+  max-height: 600px;
+}
 
-****************************************************************/
+.bg-container {
+  padding-top: 80px;
+}
 
-.top-bg {
+h1 {
+  margin: 20px auto 10px;
+  font-size: 2em;
+}
+
+.runmill-desc {
+  max-width: 440px;
+  margin: 15px auto 90px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  line-height: 27px;
+}
+
+/** stopwatch **/
+
+.stopwatch {
   height: 570px;
 }
 
-.bg-wrapper {
-  padding-top: 25%;
-  max-width: 480px
+.stopwatch-title {
+  margin: 75px auto 20px;
 }
 
-.pure-button-one {
-  margin-right: 5px;
-}
-
-h2 {
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
+.stopwatch-title, .flexible-title {
   font-size: 1.5em;
-  line-height: 40px;
 }
 
-h3 {
-  max-width: 400px;
-  font-size: 1.1em;
-  letter-spacing: 2px;
-  line-height: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
+.stopwatch-desc, .flexible-desc {
+  font-size: 1.05em;
+  line-height: 28px;
 }
 
-/****************************************************************
+/** flex **/
 
-APP STORE & GOOGLE PLAY BTNS 
-TOP
-
-****************************************************************/
-
-.app-store-btn {
-  padding-top: 0;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.flexible {
+  height: 955px;
 }
 
-.play-btn {
-  padding-top: 0px;
+.flexible-title {
+  margin: 70px auto 25px;
+}
+
+.flexible-desc {
+  margin: 0 auto 50px;
+}
+
+.flexible-overview {
+  padding-top: 10px;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
+  text-align: center;
+  margin: 0 auto;
+  float: none;
 }
 
-/****************************************************************
-
-APP STORE & GOOGLE PLAY BTNS 
-BOTTOM
-
-****************************************************************/
-
-.app-store-down-btn {
-  padding-top: 50px;
-  padding-right: 0;
-  width: 196px;
-  height: 66px;
+.first-watch {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
 }
 
-.play-down-btn {
-  padding-top: 50px;
+.f-watch {
+  background-size: 359px 566px;
+  width: 359px;
+  max-height: 566px;
+}
+
+/** heart **/
+
+.heart {
+  height: 1040px;
+}
+
+.heart-wrap {
+  max-width: 1200px;
+}
+
+.heart-overview {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  float: none;
+}
+
+.heart-title {
+  max-width: 800px;
+  margin: 80px auto 25px;
+  font-size: 1.5em;
+}
+
+.heart-desc {
+  margin: 0 auto;
+  font-size: 1.05em;
+}
+
+.second-watch {
+  margin: 80px auto 10px;
+  text-align: center;
   padding-left: 0;
-  width: 196px;
-  height: 66px;
-
-}
-
-/****************************************************************
-
-STEP ONE
-
-****************************************************************/
-
-.step-one {
-  height: 700px;
-  overflow: hidden;
-}
-
-.phone-one-wrap {
-  padding-top: 70px;
-  padding-left: 20%;
   float: none;
 }
 
-.p-one-wrap {
-  margin: 17% auto -30px;
-  text-align: center;
-  float: none;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.4em;
-  line-height: 40px;
+.s-watch {
+  background-size: 323px 394px;
+  width: 323px;
+  max-height: 394px;
+}
+
+/** taptic **/
+
+.taptic {
+  height: 780px;
+}
+
+.taptic-title {
+  font-size: 1.5em;
+  margin: 80px auto 30px;
+}
+
+.taptic-desc {
+  font-size: 1.05em;
 }
 
 
+/** end **/
 
-/****************************************************************
-
-STEP TWO
-
-****************************************************************/
-
-.step-two {
-  height: 720px;
-  overflow: hidden;
+.end-title {
+  font-size: 1.7em;
+  margin-top: 50px;
 }
 
-.phone-two-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
+.end-desc {
+  max-width: 300px;
 
-.p-two-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-STEP THREE
-
-****************************************************************/
-
-.step-three {
-  height: 710px;
-  overflow: hidden;
-}
-
-.phone-three-wrap {
-  padding-top: 64px;
-  padding-left: 20%;
-  float: none;
-}
-
-.p-three-wrap {
-  margin: 16% auto -30px;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  float: none;
-  font-size: 1.4em;
-  line-height: 40px;
-}
-
-/****************************************************************
-
-SAFE & AUTOMATIC
-
-****************************************************************/
-
-
-.safe-wrap {
-  padding-top: 105px;
 }
 
 }
