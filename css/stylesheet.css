@@ -1188,7 +1188,7 @@ h1 {
 /** stopwatch **/
 
 .stopwatch {
-  height: 570px;
+  height: 505px;
 }
 
 .stopwatch-title {
@@ -1207,7 +1207,7 @@ h1 {
 /** flex **/
 
 .flexible {
-  height: 955px;
+  height: 960px;
   overflow: hidden;
 }
 
@@ -1242,7 +1242,7 @@ h1 {
 /** heart **/
 
 .heart {
-  height: 1040px;
+  height: 975px;
 }
 
 .heart-wrap {
@@ -1268,7 +1268,7 @@ h1 {
 }
 
 .second-watch {
-  margin: 80px auto 10px;
+  margin: 60px auto 10px;
   text-align: center;
   padding-left: 0;
   float: none;
@@ -1283,7 +1283,7 @@ h1 {
 /** taptic **/
 
 .taptic {
-  height: 780px;
+  height: 755px;
 }
 
 .taptic-title {
